@@ -1,9 +1,4 @@
-let links = document.querySelectorAll('a');
 let portrait = document.getElementById('portrait');
-
-links.forEach(link => {
-  link.addEventListener('click', () => alert("Link unavailable. Website still under construction."));
-});
 
 portrait.addEventListener('click', handlePortraitClick);
 
